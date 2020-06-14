@@ -13,7 +13,7 @@ public:
 	std::string generado() {
 		char rndom[15];
 		std::string cadena="";
-		srand(time(NULL));
+		//srand(time(NULL));
 		int num;
 		for (int i = 0; i < 15; i++)
 		{
